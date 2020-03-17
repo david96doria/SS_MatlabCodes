@@ -47,7 +47,7 @@ p1=find(t==-1);
 p2=find(t==0);
 p3=find(t==1);
 p4=find(t==2);
-x5(p1:p2)=t5(p1:p2);
+x5(p1:p2)=-t5(p1:p2)-1;
 x5(p2:p3)=2;
 x5(p3:p4)=1;
 subplot(2,3,6);plot(t5,x5)
